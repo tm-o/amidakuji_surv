@@ -89,7 +89,7 @@ def process():
     if allow_loop:
         legend_lines.append(f"  {op_names[n-1]} : {n} 番目 と 1 番目の値を入れ替え (端ループ)")
 
-    rule_name = "端ループあり（円筒あみだ）" if allow_loop else "端ループなし（通常あみだ）"
+    rule_name = "端ループあり（円形あみだ）" if allow_loop else "端ループなし（通常あみだ）"
 
     file_content = (
         f"==================================================\n"
